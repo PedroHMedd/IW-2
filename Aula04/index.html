@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALC IMC</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora IMC</title>
 </head>
+
 <body>
+    <div class="calculadora">
+        <h1>Calculadora de IMC </h1>
 
-    <div class="calc">
+        <div>
+            <p>Informe sua altura: </p>
+            <input id="altura" name="altura" value="" type="float">
 
-        <h1>Calculadora de IMC</h1>
+            <p>Informe seu peso: </p>
+            <input id="peso" name="peso" value="" type="float">
 
-        Informe sua altura:
-        <input id='altura' type="number">
-        
-        Informe o seu peso
-        <input id='peso' type="number">
+            <p>Informe seu gênero: </p>
+            <select name="genero" id="genero">
+                <option id="masculino" value="masculino">Masculino</option>
+                <option id="feminino" value="feminino">Feminino</option>
+            </select>
 
-        Informe seu sexo:
-        <select name="genero" id="genero">
-            <option value="" id="masc">Masculino</option>
-            <option value="" id="fem">Feminino</option>
-        </select>
+            <p><button id="calcular" onclick="calcular()">Calcular</button></p>
 
-        <button id='calcular'>Calcular</button>
+            <p>O seu IMC é de: <span id="resultado">0</span></p>
+            <p>Diagnóstico: <span id="dvalor">0</span></p>
+        </div>
 
-        <span id='resultado'></span>
+    </div>
 
-     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

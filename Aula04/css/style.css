@@ -1,0 +1,53 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da calculadora */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculadora {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#resultado,
+#dvalor {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}

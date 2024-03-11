@@ -1,2 +1,2 @@
 # Lampada
-http://PedroHMedd.github.io/IW-2
+http://PedroHMedd.github.io/IW-2/Aula02

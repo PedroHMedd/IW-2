@@ -1,11 +1,9 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos da calculadora */
 body {
     font-family: Arial, sans-serif;
 }

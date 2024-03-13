@@ -16,7 +16,7 @@ function somar() {
 
   function dividir() {
     if (n2.value === "0") {
-      resultado.innerHTML = "Erro: Divisão por zero!";
+      resultado.innerHTML = "Erro";
     } else {
       resultado.innerHTML = parseFloat(n1.value) / parseFloat(n2.value);
     }

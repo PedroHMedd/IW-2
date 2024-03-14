@@ -41,8 +41,20 @@ function lampAlternar() {
     }
   } 
 
+function resetar(){
+    if(lampQuebrada()){
+        lampada.src = "img/desligada.jpg"
+        estado.innerHTML = "Desligada"
+    }
+    else{
+        lampada.src = 'img/desligada.jpg'
+        estado.innerHTML = "Desligada"
+      }
+    }
+
 ligar.addEventListener('click',lampLigada)
 desligar.addEventListener('click',lampDesligada)
+reset.addEventListener('click', resetar)
 
 lampada.addEventListener('mouseover',lampLigada)
 lampada.addEventListener('mouseleave',lampDesligada)

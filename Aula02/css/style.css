@@ -7,3 +7,11 @@ main{
 button{
     width: 80px;
 }
+
+#ligar {
+    background-color: blue;
+}
+
+#desligar {
+    background-color: blueviolet;
+}

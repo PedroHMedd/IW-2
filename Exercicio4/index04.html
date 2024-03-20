@@ -5,19 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 01</title>
+    <title>Exercicio 04</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Interagindo com o usuário</h1>
-    <button onclick="exib()">Clique para começar</button>
+
+    <h1>INTERAGINDO COM O USUÁRIO</h1>
+
+    <p id="cor">Clique em um dos botões acima para ver a cor correspondente.</p>
+
+    <button onclick="alterarTexto('b1', 'blue')">azul</button>
+    <button onclick="alterarTexto('b2', 'green')">verde</button>
+    <button onclick="alterarTexto('b3', 'red')">vermelho</button>
 
     <script>
-        function exib() {
-        var nome = prompt('Digite seu nome: ')
-        alert('Olá, Prazer em te conhecer ' +nome) 
-    }
-    
+        function alterarTexto(botao, cor) {
+            var corParagrafo = document.getElementById('cor');
+            corParagrafo.textContent = "A cor do botão é essa do texto!";
+            corParagrafo.style.color = cor;
+        }
     </script>
 
 </body>

@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p, h1, h2 {
-    margin-left: 20%;
-    margin-right: 20%;
+p,
+h1,
+h2 {
+    text-align: center;
     color: white;
 }
 
@@ -17,14 +16,9 @@ main {
 
 .padrao {
     font-size: 50px;
-    text-align: center;
     background-color: black;
     color: white;
     border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid gray;
-    border-right: 7px solid gray;
 }
 
 button {
@@ -45,34 +39,15 @@ button {
     width: 100%;
 }
 
-#SASUKE {
-    background-color: #000000;
-    color: white;
-    border-radius: 2rem;
-}
-
-#ITACHI {
-    background-color: #f56565;
-    color: #000000;
-    border-radius: 2rem;
-}
-
-#OBITO {
-    background-color: #2f00ff;
-    color: white;
-    border-radius: 2rem;
-}
-
-#MADARA {
-    background-color: #c53030;
-    color: white;
-    border-radius: 2rem;
-}
-
+#SASUKE,
+#ITACHI,
+#OBITO,
+#MADARA,
 #INDRA {
-    background-color: #553c9a;
+    display: inline-block;
+    margin-right: 10px;
     color: white;
-    border-radius: 2rem;
+    border-radius: 5rem;
 }
 
 .H1Sasuke {
@@ -95,62 +70,23 @@ button {
     background-color: #553c9a;
 }
 
-.Sasuke {
-    font-size: 50px;
-    text-align: center;
+
+#SASUKE {
     background-color: #000000;
-    color: white;
-    border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid #000000;
-    border-right: 7px solid #000000;
 }
 
-.Itachi {
-    font-size: 50px;
-    text-align: center;
+#ITACHI {
     background-color: #f56565;
-    color: #000000;
-    border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid #f56565;
-    border-right: 7px solid #f56565;
 }
 
-.Obito {
-    font-size: 50px;
-    text-align: center;
+#OBITO {
     background-color: #2f00ff;
-    color: white;
-    border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid #2f00ff;
-    border-right: 7px solid #2f00ff;
 }
 
-.Madara {
-    font-size: 50px;
-    text-align: center;
+#MADARA {
     background-color: #c53030;
-    color: white;
-    border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid #c53030;
-    border-right: 7px solid #c53030;
 }
 
-.Indra {
-    font-size: 50px;
-    text-align: center;
+#INDRA {
     background-color: #553c9a;
-    color: white;
-    border-radius: 5rem;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-bottom: 7px solid #553c9a;
-    border-right: 7px solid #553c9a;
 }
